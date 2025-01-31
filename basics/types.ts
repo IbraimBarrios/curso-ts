@@ -18,3 +18,19 @@ let response: any = "hello";
 response = 20;
 response = true;
 response = ["hola", 123];
+
+// void, ejecuta cosas pero no retorna nada
+function hello(): void {
+  console.log("Hello");
+}
+
+// unknown, similara any pero mas controlado
+let response2: unknown;
+response2 = true;
+if(response2){
+  console.log("here");
+}
+
+// tipos de datos basios
+let response3 = null;
+let response4 = undefined;
