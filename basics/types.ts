@@ -34,3 +34,24 @@ if(response2){
 // tipos de datos basios
 let response3 = null;
 let response4 = undefined;
+
+
+
+// Combinacion de tipos
+type ResponseTypeService = string | undefined;
+
+type ExampleTypes = {
+  name: string,
+  age: number
+}
+
+let response5: number | null = 5;
+let response6: ResponseTypeService;
+
+let response7: ResponseTypeService;
+let response8: ResponseTypeService;
+
+let response9: ExampleTypes;
+
+response8?.toString().concat("");
+
