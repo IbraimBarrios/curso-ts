@@ -28,3 +28,9 @@ if (response2) {
 // tipos de datos basios
 var response3 = null;
 var response4 = undefined;
+var response5 = 5;
+var response6;
+var response7;
+var response8;
+var response9;
+response8 === null || response8 === void 0 ? void 0 : response8.toString().concat("");
