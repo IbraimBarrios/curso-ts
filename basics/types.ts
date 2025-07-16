@@ -55,3 +55,21 @@ let response9: ExampleTypes;
 
 response8?.toString().concat("");
 
+// Type Assertion
+
+// Casetea la varible cuando es de tipo any a un tipado espesifico.
+
+let message: any = "";
+
+// Ejemplo 1:  
+let messageUppercase = (message as string).toUpperCase();
+
+// Ejemplo2:
+let messageUppercase2 = <string>message;
+message.toUpperCase();
+
+// Ejemplo 3:  para el manejo del DOM
+//Sintaxis 1
+const canvas  = <HTMLCanvasElement>document.getElementById("canvas");
+//Sintaxis 2
+const canvas  = document.getElementById("canvas") as HTMLCanvasElement;
