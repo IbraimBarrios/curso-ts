@@ -8,6 +8,7 @@
     "start:enums": "npx tsc basics/enums.ts --outdir dist/ && node dist/enums.js",
     "start:interfaces": "npx tsc basics/interfaces.ts --outdir dist/ && node dist/interfaces.js",
     "start:customTypes": "npx tsc basics/customTypes.ts --outdir dist/ && node dist/customTypes.js",
+    "start:clases": "npx tsc basics/clases.ts --outdir dist/ && node dist/clases.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
