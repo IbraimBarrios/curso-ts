@@ -10,6 +10,8 @@
     "start:customTypes": "npx tsc basics/customTypes.ts --outdir dist/ && node dist/customTypes.js",
     "start:clases": "npx tsc basics/clases.ts --outdir dist/ && node dist/clases.js",
     "start:functions": "npx tsc basics/functions.ts --outdir dist/ && node dist/functions.js",
+    "start:namespace": "npx tsc advanced/namespaces/namespaces.ts --outFile dist/namespace.js && node dist/namespace.js",
+    "start:namespaces": "npx tsc advanced/namespaces/namespaces.ts advanced/namespaces/index.ts --outFile dist/namespaces.js && node dist/namespaces.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
